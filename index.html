@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lan="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>Survey for students and facility of a/A</title>
+
+</head>
+
+
+<body>
+    <h1>Favorite language</h1>
+    <form action="/form-handlinf-url" method="post">
+        <fieldset>
+            <legend>Add use</legend>
+            <div>
+                <label for="firstName">First name</label>
+                <input type="text" id="firstname" name="firstname">
+            </div>
+            <div>
+                <label for="lastName">Last name</label>
+                <input type="text" id="lastname" name="lastname">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email_address">
+            </div>
+            <div>
+                <label for="status">Status</label>
+                <select id="status" name="user_status_name">
+                    <option value="student">Student</option>
+                    <option value="instructor">Instructor</option>
+                    <option value="guest">Guest</option>
+                </select>
+            </div>
+            <p> Choose your favorite programming language:</p>
+            <div>
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="html">CSS</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="javascript">
+                <label for="javascript">JAVASCRIPT</label><br>
+            </div>
+            <div>
+                <label for="additional">Additional information</label>
+                <textarea id="additional" name="addition"></textarea>
+            </div>
+            <div>
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date">
+            </div>
+            <div>
+                <input type="checkbox" id="sign up for newsletter" name="sign up for newsletter">
+                <label for="sign up">Sign up for newsletter</label><br>
+                <input type="checkbox" id="Agree to terms and conditions" name="Agree to terms and conditions">
+                <label for="Agree to terms and conditions">Agree to terms and conditions</label>
+            </div>
+            <div>
+                <button>Submit</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
